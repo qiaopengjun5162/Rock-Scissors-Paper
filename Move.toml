@@ -1,0 +1,12 @@
+[package]
+name = "Rock-Scissors-Paper"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+# https://github.com/MystenLabs/sui/issues/15239
+
+# Sui = { git = "https://github.com/MystenLabs/sui/tree/releases/sui-v1.15.0-release", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
+
+[addresses]
+game = "0x0"
